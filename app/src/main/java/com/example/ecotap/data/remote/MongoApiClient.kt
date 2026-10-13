@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 object MongoApiClient {
 
     // Local Wi-Fi IP address of PC (192.168.68.120) for physical phones, 10.0.2.2 for emulator
-    private const val BASE_URL = "http://192.168.68.120:5000/"
+    private const val BASE_URL = "https://ecotap.onrender.com"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
